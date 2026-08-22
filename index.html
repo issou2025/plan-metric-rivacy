@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Politique de Confidentialité de PlanMetric — application CAO et modélisation 2D/3D Offline-First." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0f172a" />
+
+  <title>Politique de Confidentialité — PlanMetric</title>
+
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+      --success-soft: #f0fdf4;
+      --success: #166534;
+      --shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+      --radius: 22px;
+      color-scheme: light;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #020617;
+        --surface: #0f172a;
+        --text: #f8fafc;
+        --muted: #94a3b8;
+        --border: #1e293b;
+        --accent: #60a5fa;
+        --accent-soft: #172554;
+        --success-soft: #052e16;
+        --success: #86efac;
+        --shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+        color-scheme: dark;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(37, 99, 235, 0.10), transparent 32rem),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrapper { width: min(100% - 32px, 980px); margin: 0 auto; padding: 52px 0 72px; }
+    .hero {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 40px; box-shadow: var(--shadow); margin-bottom: 24px;
+    }
+    .badge {
+      display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 999px;
+      background: var(--accent-soft); color: var(--accent); font-size: 0.88rem; font-weight: 700;
+      letter-spacing: 0.01em; margin-bottom: 18px;
+    }
+    h1 { margin: 0 0 12px; font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.08; letter-spacing: -0.04em; }
+    .subtitle { color: var(--muted); font-size: 1.04rem; max-width: 760px; margin: 0; }
+    .dates { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+    .date-card { border: 1px solid var(--border); border-radius: 14px; padding: 12px 15px; background: var(--bg); font-size: 0.94rem; }
+    .date-card strong { display: block; color: var(--text); margin-bottom: 2px; }
+    .toc, .section {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 30px 34px; margin-bottom: 18px; box-shadow: 0 8px 28px rgba(15, 23, 42, 0.04);
+    }
+    .toc h2, .section h2 { margin-top: 0; line-height: 1.25; }
+    .toc ol { columns: 2; column-gap: 32px; padding-left: 22px; margin-bottom: 0; }
+    .toc li { break-inside: avoid; margin-bottom: 8px; }
+    .section h2 { font-size: 1.45rem; letter-spacing: -0.02em; }
+    .section h3 { font-size: 1.1rem; margin-top: 28px; margin-bottom: 8px; }
+    .section p:last-child, .section ul:last-child { margin-bottom: 0; }
+    .highlight { padding: 18px 20px; border-left: 4px solid var(--accent); background: var(--accent-soft); border-radius: 12px; margin: 20px 0; }
+    .privacy-note { padding: 18px 20px; background: var(--success-soft); color: var(--success); border-radius: 14px; font-weight: 650; margin-top: 18px; }
+    ul { padding-left: 24px; }
+    li { margin-bottom: 9px; }
+    footer { text-align: center; color: var(--muted); font-size: 0.9rem; padding: 24px 10px 0; }
+    .back-top { display: inline-block; margin-top: 16px; font-size: 0.9rem; }
+    @media (max-width: 720px) {
+      .wrapper { width: min(100% - 20px, 980px); padding-top: 20px; }
+      .hero, .toc, .section { padding: 24px 20px; border-radius: 18px; }
+      .toc ol { columns: 1; }
+      h1 { font-size: 2.25rem; }
+    }
+    @media print {
+      body { background: #fff; }
+      .wrapper { width: 100%; padding: 0; }
+      .hero, .toc, .section { box-shadow: none; break-inside: avoid; }
+      .back-top { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrapper" id="top">
+    <header class="hero">
+      <div class="badge">🔒 Confidentialité & sécurité</div>
+      <h1>Politique de Confidentialité — PlanMetric</h1>
+      <p class="subtitle">PlanMetric est une application de Conception Assistée par Ordinateur (CAO) et de modélisation 2D/3D conçue avec une approche <strong>Offline-First</strong>, privilégiant le traitement local et le contrôle des données par l'utilisateur.</p>
+      <div class="dates">
+        <div class="date-card"><strong>Date d'entrée en vigueur</strong>22 août 2026</div>
+        <div class="date-card"><strong>Dernière mise à jour</strong>22 août 2026</div>
+      </div>
+    </header>
+    <nav class="toc" aria-label="Sommaire">
+      <h2>Sommaire</h2>
+      <ol>
+        <li><a href="#section-1">Offline-First et confidentialité</a></li>
+        <li><a href="#section-2">Données traitées et collectées</a></li>
+        <li><a href="#section-3">Autorisations et permissions</a></li>
+        <li><a href="#section-4">Partage avec des tiers</a></li>
+        <li><a href="#section-5">Sécurité et conservation</a></li>
+        <li><a href="#section-6">Protection des mineurs</a></li>
+        <li><a href="#section-7">Vos droits — RGPD / GDPR</a></li>
+        <li><a href="#section-8">Modifications de la politique</a></li>
+        <li><a href="#section-9">Contact et assistance</a></li>
+      </ol>
+    </nav>
+    <section class="section" id="section-1">
+      <h2>1. Philosophie « Offline-First » et Confidentialité par Défaut</h2>
+      <p>PlanMetric (ci-après désignée « l'Application ») est développée avec un engagement strict envers la protection de la vie privée et la sécurité des données de ses utilisateurs.</p>
+      <p>L'Application fonctionne selon le principe du <strong>traitement local prioritaire (Offline-First)</strong>. Elle est conçue pour fonctionner de manière autonome sur votre appareil et ne nécessite aucune création de compte pour utiliser ses principales fonctions de conception et de modélisation.</p>
+      <div class="privacy-note">Vos créations architecturales ne sont pas automatiquement envoyées vers des serveurs externes par PlanMetric.</div>
+    </section>
+    <section class="section" id="section-2">
+      <h2>2. Données Traitées et Collectées</h2>
+      <h3>A. Vos Données de Création et de Projets</h3>
+      <p>Toutes les données relatives à vos réalisations, notamment les plans d'étage, agencements de murs, ouvertures, mobiliers, cotations, calques et modèles 3D, sont stockées localement sur votre appareil ou dans les emplacements que vous sélectionnez.</p>
+      <p>Vous conservez l'entière propriété intellectuelle de vos créations ainsi que le contrôle de vos fichiers de projet.</p>
+      <h3>B. Données Personnelles et Identifiants</h3>
+      <p>PlanMetric ne collecte pas directement de données personnelles nominatives telles que votre nom, votre adresse e-mail, votre numéro de téléphone ou votre géolocalisation GPS dans le cadre de ses fonctions principales.</p>
+      <h3>C. Données Techniques et Diagnostics</h3>
+      <p>Aucun traceur publicitaire ni outil de profilage comportemental n'est intégré à l'Application.</p>
+      <p>Des informations techniques ou rapports de plantage peuvent néanmoins être traités par les services de distribution et de diagnostic de la plateforme Android ou Google Play lorsque ces services sont activés, afin de permettre au développeur de détecter les dysfonctionnements et d'améliorer la stabilité de l'Application.</p>
+    </section>
+    <section class="section" id="section-3">
+      <h2>3. Autorisations et Permissions Requises par l'Appareil</h2>
+      <p>Pour assurer certaines fonctionnalités, PlanMetric peut solliciter l'accès à des fonctions ou ressources de votre appareil Android.</p>
+      <ul>
+        <li><strong>Accès aux fichiers / documents :</strong> utilisé pour enregistrer ou ouvrir vos projets, importer des images de fond de plan et exporter vos créations dans des formats pris en charge, tels que PDF, DXF ou image.</li>
+        <li><strong>Vibreur / retour haptique :</strong> utilisé pour fournir un léger retour tactile lors d'actions telles que l'accrochage magnétique, l'alignement ou la sélection précise d'objets.</li>
+      </ul>
+      <div class="highlight">Ces autorisations sont utilisées uniquement dans le cadre des fonctionnalités concernées et lorsque cela est nécessaire au fonctionnement demandé par l'utilisateur.</div>
+    </section>
+    <section class="section" id="section-4">
+      <h2>4. Partage et Transfert des Données à des Tiers</h2>
+      <p>PlanMetric ne vend, ne loue ni n'échange vos fichiers de projet ou vos créations architecturales avec des tiers ou des régies publicitaires.</p>
+      <p>Vos fichiers peuvent être transmis à un tiers uniquement lorsque vous réalisez volontairement une action d'exportation, de partage, de copie ou de transfert via une application ou un service externe de votre choix, par exemple une messagerie, un service de stockage en ligne, un e-mail ou un autre logiciel.</p>
+    </section>
+    <section class="section" id="section-5">
+      <h2>5. Sécurité et Conservation des Données</h2>
+      <p>La sécurité des fichiers stockés localement repose notamment sur les mécanismes de sécurité fournis par Android, par votre appareil et par les emplacements de stockage que vous choisissez.</p>
+      <p>La suppression de l'Application ou de ses données depuis les paramètres Android peut entraîner la suppression définitive de certains projets enregistrés dans l'espace privé de l'Application.</p>
+      <p>Il est recommandé d'effectuer régulièrement une sauvegarde ou un export externe de vos projets importants.</p>
+    </section>
+    <section class="section" id="section-6">
+      <h2>6. Protection des Mineurs</h2>
+      <p>PlanMetric ne s'adresse pas spécifiquement aux enfants de moins de 13 ans et ne cherche pas à collecter intentionnellement des informations personnelles auprès de mineurs.</p>
+      <p>L'Application est avant tout destinée à la conception, au dessin technique, à l'architecture et à la modélisation 2D/3D.</p>
+    </section>
+    <section class="section" id="section-7">
+      <h2>7. Vos Droits — Conformité RGPD / GDPR</h2>
+      <p>Lorsque les réglementations applicables en matière de protection des données vous accordent des droits particuliers, notamment dans le cadre du Règlement Général sur la Protection des Données (RGPD / GDPR), vous pouvez notamment disposer de droits d'accès, de rectification, d'effacement ou de portabilité des données personnelles concernées.</p>
+      <p>Les projets enregistrés localement restent sous votre contrôle. Vous pouvez les consulter, les modifier, les exporter ou les supprimer depuis l'Application ou via les mécanismes de stockage de votre appareil, selon les fonctionnalités disponibles.</p>
+    </section>
+    <section class="section" id="section-8">
+      <h2>8. Modifications de la Politique de Confidentialité</h2>
+      <p>La présente Politique de Confidentialité peut être mise à jour afin de refléter l'évolution de PlanMetric, l'ajout ou la modification de fonctionnalités, l'évolution des services tiers éventuellement utilisés ou les exigences légales et réglementaires applicables.</p>
+      <p>La date de « dernière mise à jour » figurant en haut de cette page sera modifiée lorsqu'une nouvelle version de la politique sera publiée.</p>
+    </section>
+    <section class="section" id="section-9">
+      <h2>9. Contact et Assistance</h2>
+      <p>Pour toute question, suggestion ou demande relative à cette Politique de Confidentialité ou au fonctionnement de PlanMetric, vous pouvez contacter le développeur à l'adresse suivante :</p>
+      <p>📧 <strong>Support :</strong> <a href="mailto:contact.planmetric@gmail.com">contact.planmetric@gmail.com</a></p>
+      <p>Vous pouvez également utiliser l'adresse de contact officielle publiée sur la fiche Google Play de PlanMetric si celle-ci est différente.</p>
+      <a class="back-top" href="#top">↑ Retour en haut</a>
+    </section>
+    <footer>© 2026 PlanMetric — Politique de Confidentialité.</footer>
+  </main>
+</body>
+</html>
